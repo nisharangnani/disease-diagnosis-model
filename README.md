@@ -1,17 +1,15 @@
 # Disease Diagnosis Model
-A prediction model to determine if an individual is suffering from the disease.
+A prediction model to determine if an individual is suffering from a disease.
 
 ## Dataset
-The dataset consists of two parts - labeled and unlabeled data. The labeled dataset or the training dataset has 49,000 rows and includes 12 attributes such as age, height, weight, blood pressure, cholesterol, glucose, etc. This dataset will be used to classify records in the testing dataset which consists of 21,000 instances.
+The dataset contains information and symptoms about 70,000 patients collected from different hospitals. Each patient has 11 attributes including age, height, weight, blood pressure, cholesterol, glucose, etc. The data for 49,000 of these patients is labeled, and is used to classify the remaining 21,000 unlabeled instances.
 
 ## Approach
 - Exploratory data analysis
 - Data preprocessing (deduplication, handling missing values, dirty data and outliers; one-hot encoding)
 - Classification using logistic regression
-- Classification using a artificial neural network with 0 hidden layers
-- Classification using a artificial neural network with 1 hidden layer
-- Classification using a artificial neural network with 2 hidden layers
-- Classification using decision tree classifier
+- Classification using a artificial neural network with 0, 1 and 2 hidden layers
+- Classification using a decision tree classifier
 
 ## Results
 Algorithm | Accuracy | Area under the curve
